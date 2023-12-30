@@ -56,7 +56,7 @@ def caption_generator():
 
 def post_auto():
     driver,length,upload_files = pu.connecion_est()
-    pu.login("test_sele8", "@A012345", driver)
+    pu.login("username", "password", driver)
     pu.post(driver,upload_files,length)
 
 
